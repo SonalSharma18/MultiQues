@@ -30,53 +30,51 @@
 </nav>
   
     <div class="container">
+        
         <div class="row text-center">
-            <div class="col-md-4">
-            <div class="modal fade" id="login_modal" tabindex="-1" role="dialog" aria-labelledby="expert_label"
-                 aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h4 class="modal-title" id="myModalLabel">MultiQues</h4>
+                <div class="col-md-4">
+                    <div class="modal fade" id="login_modal" tabindex="-1" role="dialog" aria-labelledby="expert_label"
+                     aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title" id="myModalLabel">MultiQues</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <p class="col-md-8 text-left">
+                                            <form method="get" class="form-horizontal" action="http://localhost:8080/">
+                                                <div class="form-group">
+                                                    <div>
+                                                        <h2>Login</h2>
+                                                    </div>
+                                                    <br>
+                                                    <label>
+                                                        <input type="text" name="username" class="form-control" placeholder="Username">
+                                                    </label>
+                                                    <br>
+                                                    <label>
+                                                        <input type="password" name="password"class="form-control" placeholder="Password">
+                                                    </label>
+                                                    <br>
+                                                    <label>
+                                                        <input type="submit" class="btn btn-default" value="Login">
+                                                    </label>
+                                                    <br><br>
+                                                </div>
+                                            </form>
+                                        </p>
+                                    </div>
+                                </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
                         </div>
-                        <div class="modal-body">
-                            <div class="row">
-                                <p class="col-md-8 text-left">
-                <form method="get" class="form-horizontal" action="http://localhost:8080/">
-                    <div class="form-group">
-                        <div><h2>Login</h2></div>
-                        <br>
-                        <label>
-                            <input type="text" name="username" class="form-control" placeholder="Username">
-                        </label>
-                        <br>
-                        <label>
-                            <input type="password" name="password"class="form-control" placeholder="Password">
-                        </label>
-                        <br>
-                        <label>
-                            <input type="submit" class="btn btn-default" value="Login">
-                        </label>
-                        <br><br>
-                        <p style="font-size: 1.1em;">Don't have an account ?
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">Sign Up!</button>
-                        </p>
-                        <br>
                     </div>
-                </form>
-    
-            </div>
-        </div>
-
-
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-        </div>
                 </div>
             </div>
         </div>
-        </div>
+    
     </div>
 </body>
 </html>
